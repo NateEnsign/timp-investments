@@ -1,0 +1,149 @@
+.mainPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  width: 100%;
+  color: #233844;
+}
+
+.introRibbon {
+  height: 625px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  width: 100%;
+  height: 100%;
+  background-color: #f4f3f1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-right: 60px;
+  padding-left: 28px;
+  font-family: 'Georgia', sans-serif;
+}
+
+.titleHeader {
+  padding-bottom: 40px;
+  font-size: 65px;
+  font-weight: 550;
+}
+
+.titleText {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.titleImage {
+  width: 100%;
+}
+
+.titleImage img {
+  width: 100%;
+  height: 625px;
+  object-fit: cover;
+  object-position: left;
+}
+
+.portfolioSection {
+  background-color: #ffffff;
+  width: 100%;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.portfolioInfo {
+    width: 50%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.portfolioTitle {
+    color: #233844;
+    font-family: 'Inter', Sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    font-style: normal;
+    padding-top: 70px;
+}
+
+.portfolioPara {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.portfolioLink {
+  font-size: 20px;
+  font-weight: 525;
+  text-transform: uppercase;
+  color: #8B7260;
+  text-decoration: none;
+  border-bottom: .5px solid #8B7260;
+  margin-bottom: 60px;
+}
+
+.portfolioLink:after {
+  display: block;
+  content: '';
+  border-bottom: solid 1px #8B7260;
+  transform: scaleX(0);
+  transition: 400ms ease-in-out;
+  transform-origin: 0 100%;
+}
+
+.portfolioLink:hover:after {
+  transform: scaleX(1);
+}
+
+.portfolioStats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 40%;
+    padding-bottom: 100px;
+}
+
+.portfolioNumber {
+  color: #8b7260;
+  font-family: 'Inter', sans-serif;
+  font-size: 85px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.approachSection {
+  background-color: #c2cac6;
+  width: 100%;
+  height: 625px;
+}
