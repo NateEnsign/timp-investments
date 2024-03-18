@@ -7,6 +7,7 @@ import ApproachScreen from "./screens/ApproachScreen";
 import ImpactSceen from "./screens/ImpactScreen";
 import PortfolioScreen from "./screens/PortfolioScreen";
 import TeamScreen from "./screens/TeamScreen";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/team" element={<TeamScreen />} />
           <Route path="/" element={<HomeScreen />} />
         </Routes>
+        <Footer />
       </div>
     </>
   );
