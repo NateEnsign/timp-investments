@@ -82,8 +82,19 @@ const HomeScreen = () => {
       <div className={styles.tablePicSection}>
         <img className={styles.tableImage} src="https://images.unsplash.com/photo-1582653291997-079a1c04e5a1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Empty board room table" />
       </div>
-      <div className={styles.bottomBanner}>
-        <h2>Bottom Banner</h2>
+      <div className={styles.awardSection}>
+        <div className={styles.awardSectionInfo}>
+          <h2 className={styles.awardSectionTitle}>Recognized as a leader in real estate</h2>
+          <p className={styles.awardSectionPara}>Our extensive track record of growth, success and economic contribution has received significant recognition.</p>
+        </div>
+        <div className={styles.awardSectionImages}>
+          <img className={styles.awardImage} src="http://peakcapital.acumen.digital/wp-content/uploads/2023/11/nm-logo.svg" alt="NMHC 50 largest apartment owners" />
+          <img className={styles.awardImage} src="http://peakcapital.acumen.digital/wp-content/uploads/2023/11/inc.svg" alt="Inc 500 award" />
+          <img className={styles.awardImage} src="http://peakcapital.acumen.digital/wp-content/uploads/2023/11/fast50.svg" alt="Fast 50 and emerging award" />
+          <img className={styles.awardImage} src="http://peakcapital.acumen.digital/wp-content/uploads/2023/11/Group.svg" alt="MountainWest Capital Network Award" />
+          <img className={styles.awardImage} src="http://peakcapital.acumen.digital/wp-content/uploads/2023/11/ernst.svg" alt="Earnst and Young Entrepreneur of the year" />
+          <img className={styles.awardImage} src="http://peakcapital.acumen.digital/wp-content/uploads/2023/11/investor.svg" alt="National Real Estate Investor Award" />
+        </div>
       </div>
     </div>
   );
