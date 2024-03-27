@@ -6,7 +6,7 @@ const ImpactScreen = () => {
     <div className={styles.mainPage}>
       <div className={styles.introRibon}>
         <div className={styles.introContent}>
-          <p className={styles.introImpact}>Impact</p>
+          <p className={styles.introImpact}>IMPACT</p>
           <p className={styles.introApproach}>Our Sustainability Approach</p>
         </div>
       </div>

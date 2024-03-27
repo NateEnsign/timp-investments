@@ -232,16 +232,17 @@
   font-size: 20px;
   font-weight: 525;
   text-transform: uppercase;
-  color: #233844;
+  color: #8B7260;
   text-decoration: none;
   border-bottom: .5px solid #8B7260;
   margin-bottom: 100px;
+  padding-top: 35px;
 }
 
 .teamSectionLink:after {
   display: block;
   content: '';
-  border-bottom: solid 1px #233844;
+  border-bottom: solid 1px #8B7260;
   transform: scaleX(0);
   transition: 400ms ease-in-out;
   transform-origin: 0 100%;
