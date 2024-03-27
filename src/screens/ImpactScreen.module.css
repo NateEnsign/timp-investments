@@ -1,0 +1,201 @@
+.mainPage {
+    padding-top: 80px;
+    color: #233844;
+    font-family: 'Inter', sans-serif;
+}
+
+.introRibon {
+    background-color: #C2CAC6;
+    height: 340px;
+}
+
+.introContent {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.introImpact {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.introApproach {
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 15px;
+    font-family: 'Georgia', sans-serif;
+    text-align: center;
+}
+
+.impactSafetyRibon {
+    height: 340px;
+    width: 100%;
+}
+
+.impactSafetyRibon > p {
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20%;
+    line-height: 25px;
+}
+
+.initiativesBanner {
+    background-color: #F4F3F1;
+    height: 1300px;
+}
+
+.initiativeText {
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20%;
+}
+
+.initiativeTextHeader {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.initiativeTextPara {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    padding-top: 30px;
+}
+
+.cardContainer {
+    height: 65%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    height: 100%;
+    width: 33.333%;
+    margin: 10px;
+}
+
+.cardImg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.cardHeader {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.cardPara {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.environmentBanner {
+    height: 670px;
+    display: flex;
+    flex-direction: row;
+}
+
+.environmentText {
+    height: 670px;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 40px;
+}
+
+.environmentTextHeader {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 600;
+    padding-right: 30%;
+}
+
+.environmentTextPara {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    padding-right: 30%;
+    padding-top: 60px;
+}
+
+.imgContainer {
+    width: 90%;
+    overflow: hidden;
+}
+
+.environmentImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.statsBanner {
+    background-color: #C2CAC6;
+    height: 335px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.stat {
+    width: 33.33%;
+}
+
+.statNumber {
+   font-size: 80px;
+   font-weight: 600; 
+}
+
+.statPara {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 15%;
+}
+
+.bottomBanner {
+    height: 335px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.bottomBannerText {
+    padding: 0 25%;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 24px;
+}
+
+
+
+
