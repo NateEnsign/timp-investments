@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Carousel.module.css";
+import { ArrowLeft, ArrowRight, Circle, CircleDot } from "lucide-react";
 
 const caseStudies = [
   {
@@ -16,7 +17,7 @@ const caseStudies = [
     location: "DEVONDALE, KY",
     heading: "Stringent Management through Vertical-Integration",
     description:
-      "Timp acquired Ashton Brook in 2018, a 274-unit community in a prime Louisville location. Built in 1979, the property had begun interior renovations in 2017, prior to our ownership. Peak’s team of asset manager, project manager, and local leadership continued the interior renovations and completed full exterior and amenity improvements. Our vertically-integrated team successfully increased the asset value by optimizing income post-improvements.",
+      "Timp acquired Ashton Brook in 2018, a 274-unit community in a prime Louisville location. Built in 1979, the property had begun interior renovations in 2017, prior to our ownership. Timp’s team of asset manager, project manager, and local leadership continued the interior renovations and completed full exterior and amenity improvements. Our vertically-integrated team successfully increased the asset value by optimizing income post-improvements.",
   },
   {
     img: "https://media.istockphoto.com/id/108220043/photo/row-of-suburban-townhouses-on-summer-day.jpg?s=612x612&w=0&k=20&c=JsgZj2lP1OavojeafCQNanTbVZzFO4qygnQhgdmx-aw=",
@@ -59,38 +60,47 @@ function Carousel() {
 
   return (
     <div className={styles.main}>
-        <div className={styles.slide}>
-          <div className={styles.textContainer}>
-            <div className={styles.text}>
-              <div className={styles.location}>
-                <span>CASE STUDY</span>
-                <span>{caseStudies[currentIndex].location}</span>
-              </div>
-              <div className={styles.property}>
-                {caseStudies[currentIndex].property}
-              </div>
-              <div className={styles.heading}>
-                {caseStudies[currentIndex].heading}
-              </div>
-              <div className={styles.description}>
-                {caseStudies[currentIndex].description}
-              </div>
+      <div className={styles.slide}>
+        <div className={styles.textContainer}>
+          <div className={styles.text}>
+            <div className={styles.location}>
+              <span>CASE STUDY</span>
+              <span>{caseStudies[currentIndex].location}</span>
             </div>
-            <div className={styles.toggle}>
-              <span>
-                <button onClick={goToPrevious}>Previous</button>
-                <button onClick={goToNext}>Next</button>
-              </span>
+            <div className={styles.property}>
+              {caseStudies[currentIndex].property}
+            </div>
+            <div className={styles.heading}>
+              {caseStudies[currentIndex].heading}
+            </div>
+            <div className={styles.description}>
+              {caseStudies[currentIndex].description}
             </div>
           </div>
-
-          <img
-            src={caseStudies[currentIndex].img}
-            alt=""
-            className={styles.img}
-          />
+          <div className={styles.toggle}>
+              <button onClick={goToPrevious}>
+                <ArrowLeft className={styles.arrowBtn} />
+              </button>
+              <div>
+                {caseStudies.map((_, index) => (
+                  <button key={index} onClick={() => setCurrentIndex(index)}>
+                    {index === currentIndex ? <CircleDot className={styles.circleDotBtn} /> : <Circle className={styles.circleBtn} />}
+                  </button>
+                ))}
+              </div>
+              <button onClick={goToNext}>
+                <ArrowRight className={styles.arrowBtn} />
+              </button>
+          </div>
         </div>
+
+        <img
+          src={caseStudies[currentIndex].img}
+          alt=""
+          className={styles.img}
+        />
       </div>
+    </div>
   );
 }
 

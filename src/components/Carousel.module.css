@@ -47,20 +47,16 @@
 }
 
 .heading {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     padding-bottom: 40px;
 }
 
 .description {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 23px;
     padding-bottom: 50px;
-}
-
-.toggle {
-
 }
 
 .img {
@@ -69,4 +65,41 @@
     object-fit: cover;
     object-position: center;
   }
+
+
+
+.toggle {
+    padding: 20px 40px;
+    display: flex;
+}
+
+.toggle button {
+    all: unset;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.circleBtn {
+    width: 14px;
+    transition: scale 100ms ease-in-out;
+}
+
+.circleBtn:hover {
+    scale: 1.2;
+}
+
+.circleDotBtn {
+    width: 14px;
+    stroke-width: 3px;
+    fill: black;
+    
+}
+
+.arrowBtn {
+    stroke-width: 2.5px;
+    margin: 0 5px;
+}
+
+
+
 
