@@ -65,7 +65,7 @@ const PortfolioScreen = () => {
       <span className={styles.teamSection}>
         <h2 className={styles.teamSectionTitle}>Approach</h2>
         <p className={styles.teamSectionPara}>We are a vertically-integrated owner-operator, with disciplined acquisition criteria and an extensive track record of success.</p>
-        <Link className={styles.teamSectionLink} to='/team'>Learn More</Link>
+        <Link className={styles.teamSectionLink} to='/approach'>Learn More</Link>
       </span>
     </div>
   )

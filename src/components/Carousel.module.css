@@ -91,13 +91,21 @@
 .circleDotBtn {
     width: 14px;
     stroke-width: 3px;
-    fill: black;
+    color: #233844;
+    fill: #233844;
     
 }
 
 .arrowBtn {
     stroke-width: 2.5px;
     margin: 0 5px;
+    transition: scale 100ms ease-in-out;
+    color: #233844;
+
+}
+
+.arrowBtn:hover {
+    scale: 1.2;
 }
 
 
