@@ -1,0 +1,31 @@
+.employeeContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #f4f3f1;
+}
+
+.btn {
+  all: unset;
+  font-size: 20px;
+  font-weight: 525;
+  text-transform: uppercase;
+  color: #8b7260;
+  text-decoration: none;
+  border-bottom: 0.5px solid #8b7260;
+  margin-bottom: 60px;
+  padding-top: 60px;
+}
+
+.btn:after {
+  display: block;
+  content: "";
+  border-bottom: solid 1px #8b7260;
+  transform: scaleX(0);
+  transition: 400ms ease-in-out;
+  transform-origin: 0 100%;
+}
+
+.btn:hover:after {
+  transform: scaleX(1);
+}

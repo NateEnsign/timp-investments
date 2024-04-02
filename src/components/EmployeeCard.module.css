@@ -1,0 +1,31 @@
+.main {
+    color: #233844;
+    font-family: 'Inter', sans-serif;
+    width: 16.66%;
+}
+
+  
+  .employeeCard {
+    all: unset;
+    margin: 20px ;
+  }
+  
+  .employeeCard:hover {
+    cursor: pointer;
+  }
+  
+  .img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+  .title {
+    font-size: 16px;
+  }
+  
