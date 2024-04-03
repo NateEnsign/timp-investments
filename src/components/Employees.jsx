@@ -49,7 +49,7 @@ const ourTeam = [
     id: 7,
     img: "https://image-cdn.essentiallysports.com/wp-content/uploads/michael-jordan-looks-640x853.jpg",
     name: "Carmello Anthony",
-    title: "Jeff Danley",
+    title: "CFO",
     history: `Ullamco nisi cupidatat aute deserunt culpa laboris est magna nostrud sunt pariatur velit. Nisi dolore eu ea dolor quis tempor minim consectetur Lorem ipsum nostrud anim do eiusmod. Sint eiusmod ullamco dolor sunt ad laboris incididunt voluptate ullamco ea magna commodo. Et in pariatur exercitation sunt. Labore dolore est fugiat labore fugiat culpa. Enim ea fugiat cillum velit aliqua qui reprehenderit laborum dolore esse exercitation consectetur dolore magna. Ullamco quis dolore tempor aliqua reprehenderit nisi.`,
   },
   {
@@ -187,6 +187,8 @@ const Employees = () => {
   const handleButtonClick = () => {
     setShowAll(!showAll);
   };
+
+
 
   return (
     <div className={styles.employeeContainer}>

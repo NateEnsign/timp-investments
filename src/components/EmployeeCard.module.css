@@ -28,4 +28,57 @@
   .title {
     font-size: 16px;
   }
+
+  .modalContent {
+    display: flex;
+    height: 550px;
+    width: 1000px;
+    background-color: #F4F3F1;
+  }
+
+  .modalText {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    color: #233844;
+  }
+
+  .modalImg {
+    height: 100%;
+  }
+
+  .modalBtn {
+    all: unset;
+    text-align: end;
+    font-size: 25px;
+    padding-right: 2%;
+    padding-top: 1%;
+  }
+
+  .modalBtn:hover {
+    cursor: pointer;
+  }
+
+  .modalName {
+    font-size: 45px;
+    font-weight: 600;
+    padding-top: 30px;
+  }
+
+  .modalTitle {
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-right: 25%;
+  }
+
+  .modalHistory {
+    font-size: 20px;
+    padding-top: 30px;
+    padding-right: 15%;
+  }
+
+
+
+
   
