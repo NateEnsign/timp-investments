@@ -6,20 +6,20 @@ const HomeScreen = () => {
   return (
     <div className={styles.mainPage}>
       <div className={styles.introRibbon}>
-        <span className={styles.title}>
+        <div className={styles.title}>
           <h2 className={styles.titleHeader}>Timp Capital Partners</h2>
           <h3 className={styles.titleText}>
             Timp Capital is a vertically-integrated multifamily investment and
             management firm with conventional and affordable communitites in
             growth markets across the United States.
           </h3>
-        </span>
-        <span className={styles.titleImage}>
+        </div>
+        <div className={styles.titleImage}>
           <img
             src="https://resource.rentcafe.com/image/upload/q_auto,f_auto,c_limit,w_1920/s3/2/85233/buildingphoto%20(1).jpg"
             alt="Photo of an apartment complex"
           />
-        </span>
+        </div>
       </div>
       <div className={styles.portfolioSection}>
         <div className={styles.portfolioInfo}>
@@ -42,9 +42,8 @@ const HomeScreen = () => {
           <div>
             <h2 className={styles.portfolioNumber}>750</h2>
             <p className={styles.portfolioNumberLabel}>
-              Units Owned Since Inception
+              Team Members
             </p>
-            <p>Team Members</p>
           </div>
           <div>
             <h2 className={styles.portfolioNumber}>16</h2>

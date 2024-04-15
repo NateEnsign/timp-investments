@@ -45,14 +45,18 @@
 
   .modalImg {
     height: 100%;
+    border-radius: 10px;
   }
 
   .modalBtn {
     all: unset;
     text-align: end;
-    font-size: 25px;
     padding-right: 2%;
     padding-top: 1%;
+  }
+
+  .btnX {
+    stroke-width: 2.5;
   }
 
   .modalBtn:hover {

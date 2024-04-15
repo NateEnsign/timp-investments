@@ -1,23 +1,61 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./Header.module.css";
 import { Link } from "react-router-dom";
+import { Menu } from "lucide-react";
+import { X } from "lucide-react";
 
-const Header = () => {
+const HeaderDesktop = () => {
+  const [sidebarOpen, setSideBarOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setSideBarOpen(!sidebarOpen);
+  };
+
   return (
     <div className={styles.header}>
-      <div className={styles.logo}>
-        <Link to="/">
+      <span className={styles.headerSpan}>
+        <Link to="/" className={styles.logo}>
           TIMP INVESTMENTS
         </Link>
-      </div>
-      <div className={styles.links}>
-        <Link to="/portfolio">Portfolio</Link>
-        <Link to="/approach">Approach</Link>
-        <Link to="/team">Team</Link>
-        <Link to="/impact">Impact</Link>
+        <Menu onClick={toggleSidebar} className={styles.hamburger} />
+      </span>
+      <div className={`${sidebarOpen ? styles.open : styles.links}`}>
+        <div className={styles.closeIconContainer}>
+        {sidebarOpen && (
+          <X className={styles.closeIcon} onClick={toggleSidebar} />
+        )}
+        </div>
+        <Link
+          to="/portfolio"
+          onClick={toggleSidebar}
+          className={`${sidebarOpen ? styles.linkOpen : styles.link}`}
+        >
+          Portfolio
+        </Link>
+        <Link
+          to="/approach"
+          onClick={toggleSidebar}
+          className={`${sidebarOpen ? styles.linkOpen : styles.link}`}
+        >
+          Approach
+        </Link>
+        <Link
+          to="/team"
+          onClick={toggleSidebar}
+          className={`${sidebarOpen ? styles.linkOpen : styles.link}`}
+        >
+          Team
+        </Link>
+        <Link
+          to="/impact"
+          onClick={toggleSidebar}
+          className={`${sidebarOpen ? styles.linkOpen : styles.link}`}
+        >
+          Impact
+        </Link>
       </div>
     </div>
   );
 };
 
-export default Header;
+export default HeaderDesktop;

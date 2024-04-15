@@ -11,11 +11,12 @@ import Footer from "./components/Footer";
 
 
 function App() {
+
+
   return (
     <>
       <div>
         <Header />
-        
         <Routes>
           <Route path="/portfolio" element={<PortfolioScreen />} />
           <Route path="/approach" element={<ApproachScreen />} />
