@@ -6,6 +6,7 @@
   width: 100%;
   color: #233844;
   font-family: "Inter", sans-serif;
+  overflow-x: hidden;
 }
 
 .introRibbon {
@@ -326,7 +327,6 @@
     width: 100%;
     color: #233844;
     font-family: "Inter", sans-serif;
-    overflow-x: hidden;
   }
 
   .introRibbon {
@@ -467,13 +467,36 @@
 
   .awardSection {
     width: 100%;
+    height: 700px;
   }
 
   .awardSectionInfo {
     width: 100%;
+    height: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .awardSectionTitle {
     font-size: 35px;
+    padding-bottom: 30px;
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .awardSectionPara {
+    font-size: 17px;
+    line-height: 20px;
+   
+  }
+
+  .awardSectionImages {
+
+  }
+
+  .awardImage {
+    height: 50px;
+    width: 100px;
   }
 }
