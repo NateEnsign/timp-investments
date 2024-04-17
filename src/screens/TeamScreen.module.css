@@ -162,5 +162,56 @@
   .teamSectionLink:hover:after {
     transform: scaleX(1);
   }
+
+  @media (max-width: 768px){
+    .introRibon {
+      height: 250px;
+    }
+
+    .teamHeader {
+      font-size: 17px;
+    }
+
+    .teamContent {
+      font-size: 35px;
+    }
+
+    .teamInfoRibon {
+      height: 250px;
+    }
+
+    .teamInfoRibon > p {
+      font-size: 17px;
+      line-height: 20px;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    .cultureBanner {
+      display: flex;
+      flex-direction: column-reverse;
+      width: 100%;
+    }
+
+    .cultureTextContainer {
+      width: 100%;
+    }
+
+    .cultureTextHeader {
+      font-size: 35px;
+      line-height: 39px;
+    }
+
+    .cultureTextPara {
+      font-size: 17px;
+      padding-right: 5%;
+      line-height: 20px;
+      padding-top: 40px;
+    }
+
+    .cultureImg {
+      width: 100%;
+    }
+  }
   
   
