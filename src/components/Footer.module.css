@@ -1,5 +1,6 @@
 .footer {
     height: 335px;
+    width: 100%;
     background-color: #233844;
     color: white;
 }
@@ -45,4 +46,27 @@
 
 .footerContact > p {
     padding-bottom: 20px;
+}
+
+@media (max-width: 768px){
+    .footer {
+        height: 600px;
+    }
+
+    .footerContent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerLogo {
+        padding-left: 5%;
+    }
+
+    .footerLinks {
+        padding-left: 10%;
+    }
+
+    .footerContact {
+        padding-left: 10%;
+    }
 }
