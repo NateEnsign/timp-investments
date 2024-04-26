@@ -102,7 +102,7 @@
     font-size: 50px;
     font-weight: 600;
     text-align: center;
-    padding: 90px;
+    padding: 60px;
   }
 
   .cardContainer {
@@ -110,7 +110,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    padding-bottom: 90px;
+    padding-bottom: 20px;
   }
 
   .teamSection {
@@ -128,7 +128,8 @@
     font-size: 48px;
     font-weight: 600;
     font-style: normal;
-    margin-top: 70px;
+    margin-top: 50px;
+    padding-bottom: 30px;
   }
   
   .teamSectionPara {

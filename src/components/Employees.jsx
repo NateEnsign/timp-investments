@@ -188,14 +188,14 @@ const Employees = () => {
     setShowAll(!showAll);
   };
 
-
-
   return (
     <div className={styles.employeeContainer}>
       {employeeDisplay}
-      <button className={styles.btn} onClick={handleButtonClick}>
-        {buttonText}
-      </button>
+      <div className={styles.btnContainer}>
+        <button className={styles.btn} onClick={handleButtonClick}>
+          {buttonText}
+        </button>
+      </div>
     </div>
   );
 };

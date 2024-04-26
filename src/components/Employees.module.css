@@ -5,6 +5,10 @@
   background-color: #f4f3f1;
 }
 
+.btnContainer {
+  padding-top: 60px;
+}
+
 .btn {
   all: unset;
   font-size: 20px;
@@ -14,7 +18,11 @@
   text-decoration: none;
   border-bottom: 0.5px solid #8b7260;
   margin-bottom: 60px;
-  padding-top: 60px;
+  /* padding-top: 60px; */
+}
+
+.btn:hover {
+  cursor: pointer;
 }
 
 .btn:after {
